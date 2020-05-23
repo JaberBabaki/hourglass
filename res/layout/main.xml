@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.jaber.babaki.Hour
+        android:id="@+id/hour1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="#273140" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="72dp"
+        android:text="Tik"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#EAF2C6" android:textSize="16dip"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ty" android:layout_marginLeft="155dip" android:layout_marginTop="70dip"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dip"
+        android:layout_marginTop="72dip"
+        android:text="Jab"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EAF2C6"
+        android:textSize="16dip" />
+
+</RelativeLayout>
